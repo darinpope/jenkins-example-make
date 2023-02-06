@@ -1,6 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('')
+    stage('run hello target') {
+      steps {
+        sh 'make'
+      }
+    }
   }
 }
