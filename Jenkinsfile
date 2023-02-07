@@ -6,7 +6,7 @@ pipeline {
         sh 'make --version'
       }
     }
-    stage('run hello target') {
+    stage('run make') {
       steps {
         sh 'make'
       }
