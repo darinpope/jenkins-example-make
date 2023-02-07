@@ -1,3 +1,5 @@
+all: hello goodbye
+
 hello:
 	echo "Hello World"
 	
